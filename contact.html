@@ -6,89 +6,105 @@
         <title>Brenna McLeod</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     </head>
-<body>
 
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Brenna McLeod</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="contact.html">Contact</a>
-          </li>
-        </ul>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
 
-      </div>
-    </div>
-  </nav>
+          <!--
+            Calls on header from Bootstrap as a container for the greater nav bar. This piece defines the brand at the top left.
+            Container-fluid = it'll be 100% width at any breakpoint
+            Clases/various tags within the button tag allows it to collapse and transform into hamburger menu
+          -->
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Brenna McLeod</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <div class="container p-3 pb-5">
-      <div class="row px-3 bg-success">
-        <div class="col-xs-12">
-           <h4 class="text-light mt-3">Let's Get Connected!</h4>
-           <p class="text-light">Send me your name, email, and a message and I'll have my people get with your people.</p>
-        </div>
-      </div>
-      
-      <div class="row px-3 bg-success">
-            <div class="col-xs-12">
-               <h5 class="text-light">Name</h5>
-            </div>
-
-            <div class="col-xs-12">
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Full Name" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                </div>
+            <!--
+              Defines the container for the navigation bar and the links to other pages
+            -->
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="contact.html">Contact</a>
+                </li>
+              </ul>
             </div>
         </div>
+      </nav>
+    </header>
 
-        <div class="row px-3 bg-success">
+    <!--Outlines the bulk of the page-->
+    <main>
+      <article>
+
+        <!--Creates a new container with padding and margin; a row with one column; and bg-success gives it a green background-->
+        <div class="container p-3 pb-3 mb-5 mt-3 bg-success">
+          <div class="row px-3">
             <div class="col-xs-12">
-               <h5 class="text-light">Email</h5>
+              <h4 class="text-light mt-3">Let's Get Connected!</h4>
+              <p class="text-light">Send me your name, email, and a message and I'll have my people get with your people. Or catch me on LinkedIn to see how high my dreams can fly: <a href="https://www.linkedin.com/in/brenna-mcleod/" target="_blank" alt="McLeod LinkedIn Link" class="text-light">https://www.linkedin.com/in/brenna-mcleod/</a></p>
             </div>
+          </div>
 
+          <!--Creates a new row with one column to hold the Name input form-->
+          <div class="row px-3">
             <div class="col-xs-12">
+              <h5 class="text-light">Name</h5>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Full Name" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              </div>
+            </div>
+          </div>
+
+          <!--Creates a new row with one column to hold the Email address input form-->
+          <div class="row px-3">
+            <div class="col-xs-12">
+                <h5 class="text-light">Email</h5>
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="Email@address.com" aria-label="Recipient's username" aria-describedby="basic-addon2">
                 </div>
             </div>
-        </div>
+          </div>
 
-        <div class="row px-3 bg-success">
-            <div class="col-xs-12">
-               <h5 class="text-light">Message</h5>
+          <!--Creates a new row with one column to hold the Email address input form-->
+          <div class="row px-3">
+              <div class="col-xs-12">
+                  <h5 class="text-light">Message</h5>
+                  <div class="input-group">
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                  </div>
+              </div>
+          </div>
+
+          <!--Creates a new row with one column to hold the Email address input form-->
+            <div class="row">
+                <div class="col-xs-4 p-4 ms-1">
+                    <button type="button" class="btn btn-dark">Submit</button>
+                </div>
             </div>
-
-            <div class="input-group">
-                <textarea class="form-control" aria-label="With textarea"></textarea>
-            </div>
         </div>
+      </article>
+    </main>    
 
-        <div class="row bg-success">
-            <div class="col-xs-4 p-4 ms-1">
-                <button type="button" class="btn btn-dark">Submit</button>
-            </div>
-        </div>
-
-      </div>
-
+    <!--Calls bootstrap footer and fixes it to the bottom of the viewport-->
     <footer class="footer fixed-bottom py-3 bg-dark">   
       <div>
         <span class="text-muted px-3">2020 McLeod Inc.</span>
       </div>
     </footer>
 
-       <!-- Option 2: Separate Popper and Bootstrap JS -->
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-</body>
+          <!-- Option 2 from Bootstrap to get the hamburger menu to work: Separate Popper and Bootstrap JS -->
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+        
+  </body>
 </html>
