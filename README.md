@@ -1,29 +1,26 @@
-# Brenna McLeod's Brilliant Autobiography
-https://bmcleod12.github.io/brennas-best-auto-bio/
+# Portfolio
+https://bmcleod12.github.io/mcleod-portfolio
 
 
 ## Description
-This Brilliant Autobiography started as a homework assignment to build an About Me page and will likely be added to in time. It leverages Bootstrap and Bootstrap alone! to do some cool responsive things like resize images and present a hamburger menu in the navigation bar when the screen size is changed.
+This portfolio showcases my projects created during the KU Coding Bootcamp.
 
 ## Installation
-
 Project files includes:
 * HTML files that leverage the Bootstrap libraries
 * An assets folder with images used in the site
 No real special steps were needed for implementation aside from referencing Bootstrap, Popper, and JS
 
 ## Usage 
-
-Open the webpage to poke around: https://bmcleod12.github.io/brennas-best-auto-bio/
+Open the webpage to poke around: https://bmcleod12.github.io/mcleod-portfolio
 
 The About page features some paragraphs about me with light sarcasm sprinkled throughout. It may become more serious when I have more to say about coding and what I want to pursue.
 
-The Portfolio page features some works of art/crafts, and my one non-github project to this point.
+The Portfolio page features project completed during the KU Coding Bootcamp.
 
 The Contact page features forms that (don't) enable you to send an email to me. 
 
 ## Tests and Known Issues
-
 Test 1:
 With the page open, click each link in the navigation bar at the top left of the screen and confirm the site switches to the appropriate page. Confirm the page clicked in the menu remains lit up (active).
 
@@ -66,5 +63,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-But don't touch my art!!
