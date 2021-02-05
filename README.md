@@ -33,7 +33,7 @@ Change the screen size and confirm the page elements respond to the viewport siz
 Known Issue:
 When the page size is just right for the Monkey Scratch game text to wrap, it doesn't wrap with the indention that the others have. Possibly linked to it being a link! but remains an unsolved issue.
 
-<img alt="Scratch text wrapped" src="assets\images\scratchwrap_knownissue.PNG"/>
+<!-- <img alt="Scratch text wrapped" src="assets\images\scratchwrap_knownissue.PNG"/> -->
 
 ## Future Enhancements
 1. Implement image enlargement (https://getbootstrap.com/docs/5.0/components/modal/)
