@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brenna McLeod</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/faca15df7c.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-  <body>
+  <body class="bg-green-800" style="background-image: url(assets/images/kc-shuffle.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-origin: padding-box;">
     <header>
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
 
@@ -17,7 +23,7 @@
           Clases/various tags within the button tag allows it to collapse and transform into hamburger menu
         -->
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Brenna McLeod</a>
+          <a class="navbar-brand fas fa-home" href="index.html"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -28,7 +34,7 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                <a class="nav-link" aria-current="page" href="about.html">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -45,32 +51,15 @@
     <!--Outlines the bulk of the page-->
     <main>
       <article>
-
-        <!--Creates a new container with padding and margin; bg-success gives it a green background-->
-        <div class="container-fluid p-3 pb-5 mb-2 bg-success">
-          
-          <!--Creates a new row with a four-column wide image that will float with the text-->
-          <div class="row-fluid">
-              <div class="col-sm-4">
-                  <img src="assets\images\mcleod.PNG" class="float-start img-fluid p-3" alt="Brenna McLeod smiling on a hike in Kentucky">
-              </div>
-                  
-              <!--Creates a new container spanning all 12 columns with paragraphs about me-->
-              <div class="col-sm-12">
-                  <p class="text-light py-3">
-                    Brenna McLeod enjoys anything outdoorsy, learning about animals, working with her hands, cooking, browsing at Michael's, and writing lots and lots of blogs about herself and how great she is. She spends so much time thinking about what to write about herself it's honestly astounding. Her favorite thing in the world is to gush about how amazing she thinks she is, especially in a class that's focused on problem-solving and not thinking about yourself. What could be more fun than public introspection at a time when all there is to do is be introspective? There are not many people in the world who love themselves more than she does and she was just chomping at the bit to show the whooooole class what a stellar person she is. Wow, we should all be like her.
-                  </p>
-
-                  <p class="text-light pb-3">
-                    Brenna has been trying to speak fluent Spanish for the last 10 years but is dismayed to find herself landlocked and very far from any Spanish-speaking countries. She has a plan to visit Spain as soon as the pandemic restrictions on travel are lifted so she can walk El Camino. It's a month-long pilgrimage from the border of France to the coast of Spain and would bring invaluable experiences, memories, and connections. Not to mention how awesome the food would be and how much she plans on eating since the points don't matter and the calories don't count when she'd be walking all day.
-                  </p>
-
-                  <p class="text-light pb-3">
-                    Brenna works for a security company and refuses to participate in social media aside from LinkedIn, so you won't find many social media links here. She could be on her soapbox for about 5 years explaining how terrible social media is for almost everything. She has no patience for self-indulgence and just please don't get her started because even she doesn't want to hear herself talk about it.
-                  </p>
-              </div>
+        <div class="col-md-4 p-4 offset-md-7">
+          <div class="card bg-gray-600 bg-opacity-60 text-gray-50">
+            <div class="card-body">
+              <h5 class="card-title text-3xl">Hi, I'm Brenna.</h5>
+              <p class="card-text text-5xl py-3">Kansas City-based developer coming to a job near you.</p>
+              <a href="about.html" class="btn bg-green-800 text-gray-50 my-3">Learn More</a>
             </div>
-        </div> 
+          </div>
+        </div>
       </article>
     </main>
   
