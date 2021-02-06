@@ -16,11 +16,19 @@ Open the webpage to poke around: https://bmcleod12.github.io/mcleod-portfolio
 
 The Home page displays a cover photo with a link to the About page.
 
+<img alt="Side panel wrapped" src="assets/images/homepage.PNG"/>
+
 The About page features a brief introduction and a list of proficiencies, as well as a link to download my resume.
+
+<img alt="Side panel wrapped" src="assets/images/aboutpage.PNG"/>
 
 The Portfolio page features project completed during the KU Coding Bootcamp.
 
-The Contact page features forms that (one day) enable you to send an email to me. 
+<img alt="Side panel wrapped" src="assets/images/portfoliopage.PNG"/>
+
+The Contact page features forms that (one day) enable you to send an email to me.
+
+<img alt="Side panel wrapped" src="assets/images/contactpage.PNG"/>
 
 ## Tests
 Test 1:
