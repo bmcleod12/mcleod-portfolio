@@ -3,24 +3,26 @@ https://bmcleod12.github.io/mcleod-portfolio
 
 
 ## Description
-This portfolio showcases my projects created during the KU Coding Bootcamp.
+This portfolio showcases my skills learned and projects created during the KU Coding Bootcamp.
 
 ## Installation
 Project files includes:
-* HTML files that leverage the Bootstrap libraries
+* HTML files that leverage the Bootstrap and TailwindCSS libraries
 * An assets folder with images used in the site
 No real special steps were needed for implementation aside from referencing Bootstrap, Popper, and JS
 
 ## Usage 
 Open the webpage to poke around: https://bmcleod12.github.io/mcleod-portfolio
 
-The About page features some paragraphs about me with light sarcasm sprinkled throughout. It may become more serious when I have more to say about coding and what I want to pursue.
+The Home page displays a cover photo with a link to the About page.
+
+The About page features a brief introduction and a list of proficiencies, as well as a link to download my resume.
 
 The Portfolio page features project completed during the KU Coding Bootcamp.
 
-The Contact page features forms that (don't) enable you to send an email to me. 
+The Contact page features forms that (one day) enable you to send an email to me. 
 
-## Tests and Known Issues
+## Tests
 Test 1:
 With the page open, click each link in the navigation bar at the top left of the screen and confirm the site switches to the appropriate page. Confirm the page clicked in the menu remains lit up (active).
 
@@ -30,21 +32,15 @@ Open the page in different browsers to confirm each element of the page renders 
 Test 3:
 Change the screen size and confirm the page elements respond to the viewport size, including images.
 
-Known Issue:
-When the page size is just right for the Monkey Scratch game text to wrap, it doesn't wrap with the indention that the others have. Possibly linked to it being a link! but remains an unsolved issue.
-
-<!-- <img alt="Scratch text wrapped" src="assets\images\scratchwrap_knownissue.PNG"/> -->
-
 ## Future Enhancements
-1. Implement image enlargement (https://getbootstrap.com/docs/5.0/components/modal/)
-2. Update the Submit button on the Contact page to be functional
-3. Swap placeholder portfolio elements with real code examples
+1. Update the Submit button on the Contact page to be functional
+2. Add to the Portfolio page with more and complex projects
 
 ## License
 
 MIT License
 
-Copyright (c) 2020 KU Boot Camp
+Copyright (c) 2021 KU Boot Camp
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
